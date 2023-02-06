@@ -42,14 +42,6 @@ const Navbar = () => {
 
 
         {/* social icons */}
-<<<<<<< HEAD
-        <div className='flex fixed flex-col top-[35%] left-0'>
-        <ul>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
-                    Linkedin <FaFacebook size={30} />
-=======
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
@@ -74,7 +66,6 @@ const Navbar = () => {
                 <a className='flex justify-between items-center w-full text-gray-300'
                 href="/">
                     Resume <BsFillPersonLinesFill size={30} />
->>>>>>> c80d042 (second push)
                 </a>
             </li>
         </ul>
@@ -82,8 +73,4 @@ const Navbar = () => {
     </div>
   )
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c80d042 (second push)
 export default Navbar

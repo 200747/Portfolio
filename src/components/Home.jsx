@@ -3,10 +3,6 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
   return (
-<<<<<<< HEAD
-    <div className='w-full h-screen bg-black'>
-
-=======
     <div name='home' className='w-full h-screen bg-black'>
 
       {/* Container */}
@@ -23,7 +19,6 @@ const Home = () => {
           </button>
         </div>
       </div>
->>>>>>> c80d042 (second push)
     </div>
   )
 }
