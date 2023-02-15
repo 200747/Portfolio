@@ -16,9 +16,7 @@ const About = () => {
               <p>Hi, my name is Johan, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-              Perferendis exercitationem est quod ut inventore neque quo aliquid sit laborum ex cum odio qui necessitatibus, 
-              ea consequatur accusamus? Eveniet, deserunt culpa!</p>
+              <p>I am passionate about building all kinds of websites that improves the lives around me. I always had a passion for coding since i was a kid. Over the years I have been educated to being a front and back-end developer.</p>
             </div>
           </div>
       </div>
