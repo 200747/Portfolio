@@ -19,10 +19,10 @@ const Work = () => {
 
                     <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Netflix Clone In ReactJS
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/netflixreact-master">
+                            <a href="https://netflixreact-theta.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="/">
