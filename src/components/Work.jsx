@@ -1,6 +1,7 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
+import NetflixImg from '../assets/netflixpic.PNG'
 import realEstate from '../assets/realestate.jpg'
+import WorkImg from '../assets/workImg.jpeg'
 
 const Work = () => {
   return (
@@ -14,7 +15,7 @@ const Work = () => {
             <div 
 
             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:opacity-100'>
+                <div style={{backgroundImage: `url(${NetflixImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:opacity-100'>
               
 
                     <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
@@ -22,10 +23,10 @@ const Work = () => {
                             Netflix Clone In ReactJS
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://netflixreact-theta.vercel.app/">
+                            <a href="https://netflixreact-theta.vercel.app/" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/200747/netflixreact" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
