@@ -5,6 +5,8 @@ import VoiceImg from '../assets/voicepic.PNG'
 import realEstate from '../assets/realestate.jpg'
 import WorkImg from '../assets/workImg.jpeg'
 import WieImg from '../assets/wiebenje.PNG'
+import SnakeImg from '../assets/snakepic.PNG'
+import TaskPic from '../assets/taskpic.PNG'
 
 
 const Work = () => {
@@ -89,35 +91,35 @@ const Work = () => {
                   </div>
               </div>
           </div>
-          <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${SnakeImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
               
 
           <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
                   <span className='text-2xl font-bold text-white tracking-wider'>
-                      React JS Application
+                      Snake Game In JS
                   </span>
                   <div className='pt-8 text-center'>
-                      <a href="/">
+                      <a href="https://snake2021-tr7a.vercel.app/" target="_blank">
                           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                       </a>
-                      <a href="/">
+                      <a href="https://github.com/200747/snake2021" target="_blank">
                           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                       </a>
                   </div>
               </div>
           </div>
-          <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${TaskPic})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
         
 
           <div className='opacity-0 group-hover:opacity-100 transition-all duration-500'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Task List In React JS
             </span>
             <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://todolist-ten-theta.vercel.app/" target="_blank">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/200747/todolist" target="_blank">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
 
