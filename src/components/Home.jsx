@@ -3,14 +3,15 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import IrlPic from '../assets/irlpic.jpg'
 
+
 const Home = () => {
   return (
     <div name='home' className='w-full h-[900px] bg-[#21223e] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full '>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+        <div className='max-w-[1000px] w-full haha grid-cols-2 gap-8'>
 
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-1 px-12'>
+          <div className='max-w-[1000px] w-full haha grid sm:grid-cols-2 gap-1 px-12'>
             <div className='md:text-right  font-bold'>
             <div className='sm:text-left pb-8 pl-4'>
             <p className='text-pink-600'>My name is</p>
@@ -30,13 +31,12 @@ const Home = () => {
             </div>
             </div>
             <div className='responsivepic'>
-            <p style={{backgroundImage: `url(${IrlPic})`}} className='shadow-lg shadow-[#040c16] rounded-md items-end  mx-auto irl-aaa'></p>
+            <p style={{backgroundImage: `url(${IrlPic})`}} className='shadow-lg shadow-[#040c16] rounded-md mx-auto irl-aaa'></p>
             </div>
      
         </div>
           </div>
             </div>
-
 
 
   );
